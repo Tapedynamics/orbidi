@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contrapropuesta Proyecto SEO — Cristina Cafagno → Orbidi</title>
+  <meta name="description" content="Contrapropuesta operativa y condiciones de Cristina Cafagno para el proyecto SEO financiado por Kit Digital con Orbidi." />
+  <style>
+    :root {
+      --bg: #0b1020;           /* azul noche */
+      --panel: #11162a;        /* panel oscuro */
+      --soft: #1b2140;         /* borde suave */
+      --accent: #7dd3fc;       /* cian */
+      --accent-2: #a78bfa;     /* violeta */
+      --ok: #34d399;           /* verde */
+      --warn: #f59e0b;         /* ámbar */
+      --bad: #fb7185;          /* rosa/rojo */
+      --text: #e5e7eb;         /* gris claro */
+      --muted: #9ca3af;        /* gris medio */
+      --border: #222b56;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 800px at 80% -10%, #20305f 0%, var(--bg) 50%), var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 24px; }
+    header.hero { border: 1px solid var(--border); background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)); padding: 28px; border-radius: 18px; box-shadow: 0 10px 30px rgba(0,0,0,0.35); position: static; top: auto; backdrop-filter: blur(6px); z-index: 1; margin-bottom: 28px; }
+    h1 { margin: 0 0 8px; font-size: clamp(24px, 4vw, 36px); letter-spacing: 0.2px; }
+    .subtitle { color: var(--muted); margin: 4px 0 0; font-size: clamp(16px, 2vw, 18px); }
+    .badge { display: inline-block; padding: 6px 10px; border-radius: 999px; font-size: 12px; letter-spacing: .3px; border: 1px solid var(--soft); background: #121939; color: #c7d2fe; margin-bottom: 12px; }
+    nav { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 8px; }
+    nav a { border: 1px solid var(--soft); background: #0f1533; padding: 8px 12px; border-radius: 999px; font-size: 13px; color: #cbd5e1; transition: background .2s; }
+    nav a:hover { background: #121a3f; }
+
+    section { margin-top: 40px; border: 1px solid var(--border); background: var(--panel); border-radius: 16px; padding: 28px; box-shadow: 0 6px 18px rgba(0,0,0,0.25); }
+    section h2 { margin-top: 0; font-size: clamp(20px, 2.5vw, 26px); border-bottom: 1px solid var(--border); padding-bottom: 12px; margin-bottom: 20px; }
+    .grid { display: grid; gap: 18px; }
+    @media (min-width: 780px) {
+      .grid-cols-2 { grid-template-columns: 1fr 1fr; }
+      .grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+    }
+    .card { background: #0e1430; border: 1px solid var(--soft); border-radius: 14px; padding: 20px; }
+    .card h3 { margin-top: 0; font-size: 17px; color: var(--accent); }
+    .card p, .card ul { margin-bottom: 0; color: var(--muted); }
+    .kpi { display:flex; align-items:center; gap:12px; border:1px solid var(--soft); background:#0c122a; padding:10px 12px; border-radius:12px; }
+    .kpi b { font-size: 15px; }
+
+    ul { padding-left: 20px; }
+    li { margin: 8px 0; }
+
+    .tag { display:inline-flex; align-items:center; gap:8px; font-size:12px; padding:5px 10px; border-radius:999px; border:1px solid var(--soft); color:#cbd5e1; }
+    .tag.ok { border-color: var(--ok); color: #d1fae5; background-color: rgba(52, 211, 153, 0.1); }
+    .tag.warn { border-color: var(--warn); color:#fef3c7; background-color: rgba(245, 158, 11, 0.1); }
+    .tag.bad { border-color: var(--bad); color:#ffe4e6; background-color: rgba(251, 113, 133, 0.1); }
+
+    table { width: 100%; border-collapse: collapse; background: #0e1430; border: 1px solid var(--soft); border-radius: 12px; overflow: hidden; }
+    thead { background: #121a3f; text-align: left; }
+    th, td { padding: 12px 14px; border-bottom: 1px solid var(--soft); font-size: 14px; }
+    tbody tr:last-child td { border-bottom: none; }
+    td:first-child { font-weight: 600; color: var(--text); }
+
+    .cta-bar { margin-top: 24px; display:flex; gap:12px; flex-wrap: wrap; }
+    
+    footer { color: var(--muted); text-align:center; margin: 40px 0; font-size: 14px; }
+
+    /* Print */
+    @media print {
+      :root { --bg: #fff; --panel: #fff; --text: #000; --muted: #555; --border: #ddd; --soft: #eee; }
+      body { background: #fff; color: #000; }
+      .container { padding: 0; }
+      header.hero, section { border: 1px solid #ddd; box-shadow: none; backdrop-filter: none; background: #fff; }
+      nav, .badge { display: none; }
+      h1, h2, .subtitle { color: #000; }
+      a { color: #000; text-decoration: underline; }
+      .card { background: #f9f9f9; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="badge">Contrapropuesta formal · Proyecto SEO financiado (Kit Digital)</div>
+      <h1>Contrapropuesta del proyecto SEO — <span style="color:var(--accent)">Cristina Cafagno</span> → Orbidi</h1>
+      <p class="subtitle">Objetivo: maximizar el valor entregado, asegurar responsabilidad única y establecer condiciones medibles.</p>
+      <nav aria-label="Secciones">
+        <a href="#contexto">Contexto</a>
+        <a href="#deficiencias">Deficiencias</a>
+        <a href="#propuesta">Propuesta</a>
+        <a href="#solicitudes">Condiciones</a>
+        <a href="#aceptacion">Aceptación</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="contexto">
+        <h2>Contexto del Proyecto</h2>
+        <p>Esta contrapropuesta surge del análisis de la oferta inicial de Orbidi para el proyecto SEO financiado por el Kit Digital. El objetivo es redefinir el alcance y el modelo operativo para garantizar una mayor alineación con los objetivos de negocio, optimizando la inversión y la agilidad en la ejecución.</p>
+        <p>El enfoque se centra en pasar de un modelo colaborativo con responsabilidades compartidas a un modelo de <strong>responsabilidad única</strong>, donde asumo la gestión integral del proyecto para asegurar coherencia y maximizar los resultados.</p>
+      </section>
+
+      <section id="deficiencias">
+        <h2>Principales deficiencias detectadas en la propuesta inicial</h2>
+        <p>La propuesta original presenta tres áreas de mejora clave que esta contrapropuesta busca resolver:</p>
+        <ul>
+          <li><strong>Responsabilidad Diluida:</strong> Al delegar la creación de contenido, la responsabilidad sobre los resultados SEO finales se divide entre el estratega y el ejecutor, dificultando la atribución de resultados.</li>
+          <li><strong>Dependencias Operativas:</strong> El avance del proyecto dependería de la disponibilidad y ritmo del equipo interno de Orbidi para generar contenido, creando posibles cuellos de botella.</li>
+          <li><strong>Falta de Agilidad:</strong> Cualquier ajuste en la estrategia de contenido (ej. reaccionar a una nueva oportunidad de keyword) requeriría una coordinación entre dos equipos, ralentizando la capacidad de respuesta.</li>
+        </ul>
+      </section>
+
+      <section id="propuesta">
+        <h2>Propuesta Operativa: Fases y Entregables</h2>
+        <p>Propongo un plan de acción dividido en cuatro fases trimestrales, enfocado en construir una base sólida y escalar los resultados de manera sostenible.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Fase</th>
+              <th>Duración</th>
+              <th>Entregables Clave</th>
+              <th>Estado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fase 1: Auditoría y Estrategia</td>
+              <td>Mes 1</td>
+              <td>Auditoría SEO completa, Keyword Research, Plan de Contenidos.</td>
+              <td><span class="tag ok">Planificado</span></td>
+            </tr>
+            <tr>
+              <td>Fase 2: Optimización Técnica y On-Page</td>
+              <td>Meses 2-3</td>
+              <td>Resolución de errores técnicos, optimización de metas y estructura.</td>
+              <td><span class="tag ok">Planificado</span></td>
+            </tr>
+            <tr>
+              <td>Fase 3: Ejecución de Contenido</td>
+              <td>Meses 4-9</td>
+              <td>Publicación de 4 artículos/mes, optimizados para SEO.</td>
+              <td><span class="tag ok">Planificado</span></td>
+            </tr>
+            <tr>
+              <td>Fase 4: Link Building y Medición</td>
+              <td>Meses 10-12</td>
+              <td>Estrategia de enlaces entrantes, informe de resultados anual.</td>
+              <td><span class="tag ok">Planificado</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      
+      <section id="solicitudes">
+        <h2>Solicitudes y condiciones para continuar</h2>
+        <p>Para garantizar el éxito del proyecto bajo este nuevo modelo, se establecen las siguientes condiciones y solicitudes:</p>
+        <div class="grid grid-cols-2">
+          <div class="card">
+            <h3>Incluido en el Proyecto</h3>
+            <ul>
+              <li>Gestión integral del SEO (técnico, on-page, off-page).</li>
+              <li>Creación y optimización de 4 piezas de contenido mensuales.</li>
+              <li>Acceso completo a herramientas SEO (Ahrefs, Screaming Frog).</li>
+              <li>Reunión de seguimiento mensual e informe de KPIs.</li>
+              <li>Soporte vía email con respuesta en &lt;48h.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Fuera de Alcance (Exclusiones)</h3>
+            <ul>
+              <li>Diseño gráfico o desarrollo web (más allá de ajustes SEO).</li>
+              <li>Gestión de redes sociales o campañas de pago (PPC).</li>
+              <li>Costes de adquisición de enlaces premium (se consultará aparte).</li>
+              <li>Implementación directa en el CMS (se entregarán directrices).</li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid grid-cols-3" style="margin-top: 18px;">
+            <div class="card">
+              <h3>Comunicación</h3>
+              <p>Un canal dedicado en Slack (o email) y una reunión mensual de 30 minutos para revisar avances.</p>
+            </div>
+            <div class="card">
+              <h3>Aprobaciones</h3>
+              <p>El plan de contenidos mensual se enviará para validación (3 días hábiles para feedback).</p>
+            </div>
+            <div class="card">
+              <h3>Acceso Requerido</h3>
+              <p>Acceso a Google Analytics, Search Console y CMS con permisos de editor.</p>
+            </div>
+        </div>
+      </section>
+
+      <section id="aceptacion">
+        <h2>Criterios de Aceptación</h2>
+        <p>El éxito del proyecto se medirá en base al cumplimiento de los siguientes criterios objetivos:</p>
+        <div class="grid">
+          <div class="card">
+            <h3>Objetivo Principal (KPI)</h3>
+            <p>Incrementar el tráfico orgánico cualificado en un <strong>40% en 12 meses</strong>, medido a través de Google Analytics, tomando como referencia el tráfico del mes anterior al inicio del proyecto.</p>
+          </div>
+          <div class="card">
+            <h3>Entregables Mensuales</h3>
+            <ul>
+              <li>Cumplimiento de la entrega de <strong>4 artículos de blog</strong> optimizados según el calendario acordado.</li>
+              <li>Entrega de un <strong>informe mensual de rendimiento</strong> que muestre la evolución de rankings, tráfico orgánico y conversiones.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Powered by Tapedynamics8283 S.L.</p>
+    </footer>
+
+  </div>
+</body>
+</html>
