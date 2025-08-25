@@ -66,6 +66,9 @@
     td:first-child { font-weight: 600; color: var(--text); }
 
     .cta-bar { margin-top: 24px; display:flex; gap:12px; flex-wrap: wrap; }
+    .btn { display:inline-flex; align-items:center; gap:8px; padding: 10px 16px; border-radius: 12px; border:1px solid var(--soft); background:#0f1533; color:#e5e7eb; cursor:pointer; font-weight:600; transition: filter .2s; }
+    .btn.primary { background: linear-gradient(90deg, var(--accent), var(--accent-2)); color:#0b1020; border: none; }
+    .btn:hover { filter: brightness(1.15); }
     
     footer { color: var(--muted); text-align:center; margin: 40px 0; font-size: 14px; }
 
@@ -94,6 +97,7 @@
         <a href="#propuesta">Propuesta</a>
         <a href="#solicitudes">Condiciones</a>
         <a href="#aceptacion">Aceptación</a>
+        <a href="#contacto">Contacto</a>
       </nav>
     </header>
 
@@ -210,6 +214,27 @@
               <li>Entrega de un <strong>informe mensual de rendimiento</strong> que muestre la evolución de rankings, tráfico orgánico y conversiones.</li>
             </ul>
           </div>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto y confirmación</h2>
+        <p>Para aceptar esta contrapropuesta, resolver cualquier duda o agendar una reunión, por favor, utiliza los siguientes datos de contacto.</p>
+        <div class="grid grid-cols-2" style="margin-top: 18px;">
+            <div class="card">
+                <h3>Email</h3>
+                <p><a href="mailto:cristina.cafagno@gimail.com">cristina.cafagno@gimail.com</a></p>
+            </div>
+            <div class="card">
+                <h3>Teléfono</h3>
+                <p><a href="tel:+34632296594">+34 632 296 594</a></p>
+            </div>
+        </div>
+        <div class="cta-bar" style="margin-top: 24px;">
+            <a href="mailto:cristina.cafagno@gimail.com?subject=Aceptación%20de%20Contrapropuesta%20SEO" class="btn primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></svg>
+                Confirmar por Email
+            </a>
         </div>
       </section>
 
